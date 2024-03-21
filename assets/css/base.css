@@ -1,0 +1,28 @@
+:root{
+    --primary:#021A84;
+    --secondary:#FE4C4C;
+    --text:#171717;
+    --text-gray:#999999;
+    --light-gradien: rgba(42, 218, 102, 1);
+    --purple-gradien:#021A84;
+    --red-gradien:#E5532A;
+    --green-text:rgba(42, 218, 102, 1);
+    --purple-text:#021A84;
+    --red-text:#E5532A;
+    --bgc:#F2F2F2;
+    
+    
+
+
+}
+html, body{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    background-color:var(--bgc);
+}
+
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}

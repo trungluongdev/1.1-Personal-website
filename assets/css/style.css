@@ -1,0 +1,144 @@
+/* header */
+.container{
+padding-block: 40px;
+}
+.header{
+    height: 80px;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-link{
+    display: flex;
+    gap: 14px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+.nav-link a{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+}
+
+.nav-link a:nth-child(1):hover{
+    text-decoration: underline;
+}
+
+.nav-link a:nth-child(2){
+    border: 1px solid var(--primary);
+    width: 149px;
+    border-radius: 8px;
+    color: var(--primary);
+}
+.nav-link a:nth-child(3){
+    border: 1px solid var(--primary);
+    width: 149px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: #fff;
+}
+/* end header */
+/* banner */
+.banner{
+    max-width: 100%;
+    width: 100%;
+    height: 721px;
+}
+.recland-banner{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+/* end banner */
+/* search-form */
+.search >span > svg{
+    width: 18px;
+    height: 18px;
+}
+.btn{
+    border: 1px solid var(--primary);
+    width: 149px;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: #fff;
+    height: 44px;
+    padding: 8px 16px;
+}
+.search-form{
+display: flex;
+height: 50px;
+align-items: center;
+border-radius: 16px;
+padding: 12px;
+width: 100%;
+}
+.location{
+    display: flex;
+    background-color: #fff;
+    border-radius:8px ;
+    align-items: center;
+    height: 50px;
+    width: 271px;
+    padding:8px 16px;
+    margin-left: 16px;
+    margin-right: 12px;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.search{
+    display: flex;
+    border-radius:8px ;
+    padding:8px 16px;
+    width: 100%;
+    height: 51px;
+    background-color: #fff;
+    align-items: center;
+}
+.search input{
+    border-color: transparent;
+    padding:13px 16px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.location-icon{
+    display: flex;
+    gap:4px;
+    color: var(--text-gray);
+}
+/* end search-form */
+
+/* suggest list */
+.suggest{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    height: 28px;
+    padding:8px 16px;
+    gap: 12px;
+}
+.suggest-list{
+    display: flex;
+    gap: 8px;
+}
+
+.suggest-item{
+padding: 4px 8px;
+border-radius: 8px;
+background-color:rgba(0, 0, 0, 0.1);
+cursor: pointer;
+user-select: none;
+}
+/* end suggest list */
